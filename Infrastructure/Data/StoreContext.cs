@@ -8,4 +8,5 @@ public class StoreContext(DbContextOptions<StoreContext> options) : DbContext(op
 {
     public DbSet<Product> Products { get; set; }
 
+
 }
